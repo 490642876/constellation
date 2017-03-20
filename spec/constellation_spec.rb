@@ -11,6 +11,7 @@ describe Constellation do
         expect(Constellation.constellation(Date.parse "20000120")).to eql "水瓶座"
         expect(Constellation.constellation("20000120")).to eql "水瓶座"
         expect(Constellation.constellation("20000218")).to eql "水瓶座"
+        expect(Constellation.constellation("2000-02-18", :no)).to eql 1
       end
 
       it '双鱼座' do
@@ -18,6 +19,7 @@ describe Constellation do
 
         expect(Constellation.constellation("20000219")).to eql constellation
         expect(Constellation.constellation("20000320")).to eql constellation
+        expect(Constellation.constellation("20000320", :no)).to eql 2
       end
 
       it '白羊座' do

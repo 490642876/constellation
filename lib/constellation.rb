@@ -6,18 +6,18 @@ module Constellation
   extend self
 
   NAME_CONFIG = {
-    'Aquarius'   =>  { cn: '水瓶座',  en: 'Aquarius'    },
-    'Pisces'     =>  { cn: '双鱼座',  en: 'Pisces'      },
-    'Aries'      =>  { cn: '白羊座',  en: 'Aries'       },
-    'Taurus'     =>  { cn: '金牛座',  en: 'Taurus'      },
-    'Gemini'     =>  { cn: '双子座',  en: 'Gemini'      },
-    'Cancer'     =>  { cn: '巨蟹座',  en: 'Cancer'      },
-    'Leo'        =>  { cn: '狮子座',  en: 'Leo'         },
-    'Virgo'      =>  { cn: '处女座',  en: 'Virgo'       },
-    'Libra'      =>  { cn: '天秤座',  en: 'Libra'       },
-    'Scorpio'    =>  { cn: '天蝎座',  en: 'Scorpio'     },
-    'Sagittarius'=>  { cn: '射手座',  en: 'Sagittarius' },
-    'Capricorn'  =>  { cn: '摩羯座',  en: 'Capricorn'   }
+    'Aquarius'   =>  { no: 1, cn: '水瓶座',  en: 'Aquarius'    },
+    'Pisces'     =>  { no: 2, cn: '双鱼座',  en: 'Pisces'      },
+    'Aries'      =>  { no: 3, cn: '白羊座',  en: 'Aries'       },
+    'Taurus'     =>  { no: 4, cn: '金牛座',  en: 'Taurus'      },
+    'Gemini'     =>  { no: 5, cn: '双子座',  en: 'Gemini'      },
+    'Cancer'     =>  { no: 6, cn: '巨蟹座',  en: 'Cancer'      },
+    'Leo'        =>  { no: 7, cn: '狮子座',  en: 'Leo'         },
+    'Virgo'      =>  { no: 8, cn: '处女座',  en: 'Virgo'       },
+    'Libra'      =>  { no: 9, cn: '天秤座',  en: 'Libra'       },
+    'Scorpio'    =>  { no: 10, cn: '天蝎座',  en: 'Scorpio'     },
+    'Sagittarius'=>  { no: 11, cn: '射手座',  en: 'Sagittarius' },
+    'Capricorn'  =>  { no: 12, cn: '摩羯座',  en: 'Capricorn'   }
   }.freeze
 
   #水瓶座 Aquarius    01/20 - 02/18
